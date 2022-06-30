@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="signup">
+        <div class="heading">
+            <h1 class="brand-title">Sing Up</h1>
+        </div>
+        <div class="form">
+            <label>NAME</label>
+            <input type="text" id="name" placeholder="Name">
+            <p id="noname">Please Enter Name</p><br>
+            <label>EMAIL</label>
+            <input type="email" id="email" placeholder="Email" pattern="email" > 
+            <p id="emailreg">Email Alredy Registered</p>
+            <p id="noemail">Please Enter Email</p><br>
+            <label>PASSWORD</label>
+            <input type="password" id="password" placeholder="Password">
+            <p id="nopassword">Please Enter Password</p>
+            <br>
+        </div>
+        <div class="submit">
+            <button onclick="singup()" class="subbtn">Sign Up</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
